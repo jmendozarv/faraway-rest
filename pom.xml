@@ -4,12 +4,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.canvia.smartview.rest</groupId>
-	<artifactId>smartview-rest</artifactId>
+	<groupId>com.upc.edu.faraway.rest</groupId>
+	<artifactId>faraway-rest</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 
-	<name>smartview-rest</name>
+	<name>faraway-rest</name>
 	<description>Api Rest for Smart View</description>
 
 	<parent>
@@ -56,8 +56,8 @@
 
 		<!-- SmartView Core -->
 		<dependency>
-			<groupId>com.canvia.smartview</groupId>
-			<artifactId>smartview-core</artifactId>
+			<groupId>com.upc.edu.faraway</groupId>
+			<artifactId>faraway-core</artifactId>
 			<version>1.0.0</version>
 			<type>jar</type>
 		</dependency>
